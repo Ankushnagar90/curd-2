@@ -5,6 +5,7 @@ from .models import Person
 from django.views.generic.base import TemplateView,RedirectView
 from django.views import View
 
+#git commit bnana
 
 
 # Create your views here.
