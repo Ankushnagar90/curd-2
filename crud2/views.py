@@ -5,8 +5,6 @@ from .models import Person
 from django.views.generic.base import TemplateView,RedirectView
 from django.views import View
 
-#git commit bnana
-# git commit 2************
 
 # Create your views here.
 
@@ -28,10 +26,6 @@ class UserAddShowView(TemplateView):
             reg=Person(first_name=fnm,last_name=lnm,email=em,password=pwd)
             reg.save()
             return HttpResponseRedirect('/')
-
-
-
-
 
 
 #update function
