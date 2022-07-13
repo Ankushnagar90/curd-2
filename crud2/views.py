@@ -5,7 +5,7 @@ from .models import Person
 from django.views.generic.base import TemplateView,RedirectView
 from django.views import View
 
-
+#commit 
 # Create your views here.
 
 class UserAddShowView(TemplateView):
